@@ -15,16 +15,16 @@ function initCarousel() {
   function showNextSlide() {
     if (currentSlide < slides.length - 1) {
       currentSlide++;
-      carouselInner.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
-      updateArrows();
+      carouselInner.style.transform = `translateX(-${
+        currentSlide * slideWidth}px)`;updateArrows();
     }
   }
 
   function showPrevSlide() {
     if (currentSlide > 0) {
       currentSlide--;
-      carouselInner.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
-      updateArrows();
+      carouselInner.style.transform = `translateX(-${
+        currentSlide * slideWidth}px)`;updateArrows();
     }
   }
 
